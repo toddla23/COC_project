@@ -1,0 +1,51 @@
+#asd{
+  font-size: 100px;
+}
+
+#sheet_list{
+	margin:40px;
+	display:flex;
+	flex-direction: column;
+	padding: 40px;
+	border-radius: 10%;
+}
+
+#sheet_list>a{
+	  font-size: 30px;
+	  	margin: 5px;
+	  
+}
+#sheet_list>h1{
+	  font-size: 50px;
+	  	margin: 5px;
+}
+
+form{
+	display:flex;
+}
+
+form>*{
+	margin:5px
+}
+team_chage{
+	flex-direction:column;
+}
+
+.butten_sets{
+	
+	font-size:18px;
+	font-family:"Nana";
+}
+
+
+#create_sheet{
+	margin-top:20px;
+	font-size:25px;
+	padding:1px;
+	padding-left:8px;
+	padding-right:8px;
+	border: 2px solid black;
+	border-radius: 20%;
+}
+
+

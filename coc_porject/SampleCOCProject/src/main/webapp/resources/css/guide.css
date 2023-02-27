@@ -1,0 +1,36 @@
+.guide_line{
+  margin: 20px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+
+.guide_line > p{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.guide_line > p >mark{
+  background: none;
+  color: orange;
+}
+
+#sheet_picture{
+  width: 800px;
+  border:2px solid gray;
+}
+h1{
+	font-size:50px;	
+}
+
+.doc{
+	color:blue;
+}
+.teamimg{
+	width:80px;
+	 
+}

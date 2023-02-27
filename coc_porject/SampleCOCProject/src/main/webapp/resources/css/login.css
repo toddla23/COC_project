@@ -1,0 +1,44 @@
+#login{
+  margin: 60px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 500px;
+
+}
+p{
+  margin: 5px;
+  	font-size:18px;
+  
+}
+
+.signUP{
+	width:200px;
+	height:15px;	
+}
+
+#login_input{
+	height:20px;
+}
+#btn_login{
+  margin-top: 15px;
+    font-family:"Nana";
+    font-size: 18px;
+
+}
+
+#signUP{
+	color:#767676;
+	font-size:18px;
+	text-decoration:underline;
+	border-radius:10%;
+	margin-top:10px;
+	padding:3px;
+	padding-right:8px;
+}
+
+#member{
+	color:black;
+	font-size:200px;
+}

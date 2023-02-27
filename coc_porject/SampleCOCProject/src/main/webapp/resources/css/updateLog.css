@@ -1,0 +1,21 @@
+#update_page{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vh;
+}
+
+.update_log{
+  margin: 30px;
+  display:flex;
+  flex-direction:column;
+}
+
+.update_log h1{
+  font-size: 40px;
+
+}
+.update_log p{
+  font-size: 25px;
+  margin: 10px;
+}

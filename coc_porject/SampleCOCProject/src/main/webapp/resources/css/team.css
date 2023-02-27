@@ -1,0 +1,48 @@
+#asd{
+  font-size: 80px;
+}
+
+#team{
+	margin:40px;
+	display:flex;
+	flex-direction: column;
+	padding: 40px;
+	/*border: solid 2px black;*/
+	border-radius: 10%;
+}
+
+#team>*{
+	margin: 5px;
+}
+#team>a{
+	  font-size: 30px;
+	
+}
+
+form{
+	display:flex;
+}
+
+form>*{
+	margin:5px
+}
+team_chage{
+	flex-direction:column;
+}
+
+.butten_sets{
+	
+	font-size:18px;
+	font-family:"Nana";
+}
+.team_input{
+	font-family:"Nana";
+	font-size:18px;
+	width:100px;
+	height:20px;
+}
+.input_name{
+	font-size:20px;
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="team_table">
+
+<insert id="insert" parameterType="hashMap" useGeneratedKeys="true" keyProperty="team_id">  
+    <![CDATA[
+    insert into team_table
+    (sheet_id1, sheet_id2, sheet_id3, sheet_id4, sheet_id5) 
+    values
+    (0, 0, 0, 0, 0)
+    ]]>
+</insert>
+
+	<select id="select_detail" parameterType="hashMap" resultType="hashMap">
+	    <![CDATA[
+	    	select
+	    	team_id, sheet_id1, sheet_id2, sheet_id3, sheet_id4, sheet_id5
+	        from
+	        team_table
+	        where
+	        team_id = #{team_id}   
+	    ]]>
+	</select>
+	
+	<update id="update" parameterType="hashMap">  
+	<![CDATA[  
+		update team_table set 		 
+		sheet_id1 = #{sheet_id1},sheet_id2 = #{sheet_id2},sheet_id3 = #{sheet_id3},sheet_id4 = #{sheet_id4},sheet_id5 = #{sheet_id5}
+		where
+		team_id = #{team_id}   
+	]]>  
+	</update>
+</mapper>
